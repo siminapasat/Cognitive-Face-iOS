@@ -508,7 +508,8 @@
 				ORGANIZATIONNAME = "David Porter";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = UBF8T346G9;
+						DevelopmentTeam = KYJ84ZC369;
+						ProvisioningStyle = Manual;
 					};
 					6003F5AD195388D20070C39A = {
 						DevelopmentTeam = 86C6K78PD9;
@@ -833,8 +834,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = KYJ84ZC369;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProjectOxfordFace/ProjectOxfordFace-Prefix.pch";
@@ -844,7 +845,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "3a67c97c-fb24-46d3-8e2d-4594de382823";
+				PROVISIONING_PROFILE_SPECIFIER = "Sonoma CI Ad-Hoc BitStadium";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -856,8 +858,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = KYJ84ZC369;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProjectOxfordFace/ProjectOxfordFace-Prefix.pch";
@@ -867,7 +869,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "a7267b92-fe55-4d24-adab-9fd10502c94b";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Ad Hoc: *";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
